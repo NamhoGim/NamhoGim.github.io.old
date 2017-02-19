@@ -1,13 +1,13 @@
 {
   "version": "1.0.0",
-  "name": "Web Starter Kit",
+  "name": "Namho Gim (ARC)",
   "launch_path": "/index.html",
-  "description": "A front-end template that helps you build fast, modern mobile web apps.",
+  "description": "A personal Web page about Namho Gim from Architecture and Code Optimization (ARC) Lab. Seoul National University (SNU).",
   "icons": {
     "128": "/images/touch/icon-128x128.png"
   },
   "developer": {
-    "name": "",
+    "name": "gimnamho",
     "url": ""
   },
   "installs_allowed_from": [
@@ -18,8 +18,8 @@
   },
   "locales": {
     "en": {
-      "name": "Web Starter Kit",
-      "description": "A front-end template that helps you build fast, modern mobile web apps."
+      "name": "Namho Gim (ARC)",
+      "description": "A personal Web page about Namho Gim from Architecture and Code Optimization (ARC) Lab. Seoul National University (SNU)."
     }
   }
 }
