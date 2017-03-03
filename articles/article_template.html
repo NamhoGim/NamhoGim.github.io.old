@@ -15,97 +15,103 @@
   See the License for the specific language governing permissions and
   limitations under the License
 -->
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>Namho Kim (ARC)</title>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+		<title>Namho Kim (ARC)</title>
 
-    <!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+		<!-- Disable tap highlight on IE -->
+		<meta name="msapplication-tap-highlight" content="no">
 
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
-    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+		<!-- Web Application Manifest -->
+		<link rel="manifest" href="../manifest.json">
 
-    <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#3372DF">
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="application-name" content="Namho Kim (ARC)">
+		<link rel="icon" sizes="192x192" href="../images/touch/chrome-touch-icon-192x192.png">
 
-    <link rel="shortcut icon" href="images/favicon.png">
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Namho Kim (ARC)">
+		<link rel="apple-touch-icon-precomposed" href="../images/touch/icon-128x128.png">
 
-    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
-    <!--
-    <link rel="canonical" href="http://www.example.com/">
-    -->
+		<!-- Tile icon for Win8 (144x144 + tile color) -->
+		<meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+		<meta name="msapplication-TileColor" content="#3372DF">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="../styles/material.blue-orange.min.css">
-	<link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
-      <header class="demo-header mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800">
-        <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Namho Kim (ARC)</span>
-          <div class="mdl-layout-spacer"></div>
-          <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
-            <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
-              <i class="material-icons">search</i>
-            </label>
-            <div class="mdl-textfield__expandable-holder">
-              <input class="mdl-textfield__input" type="text" id="search">
-              <label class="mdl-textfield__label" for="search">Enter your query...</label>
-            </div>
-          </div>
-        </div>
-      </header>
-      <div class="demo-ribbon"></div>
-      <main class="demo-main mdl-layout__content">
-        <div class="demo-container mdl-grid">
-          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-          <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
-            <div class="demo-crumbs mdl-color-text--grey-500">
-              Namho Kim (ARC) &gt; tab &gt; contents
-            </div>
-            <h3>test title</h3>
-              
-          </div>
-        </div>
-        <footer class="demo-footer mdl-mini-footer">
-          <div class="mdl-mini-footer--left-section">
-            <ul class="mdl-mini-footer--link-list">
-				<li>Copyright &#169 2017 <a class="org fn url" href="/" target="_blank">Namho Kim (ARC)</a> All right reserved.</li>
-				<li><a href="https://scholar.google.co.kr/citations?user=tFNxNtAAAAAJ&hl=en">Google Scholar</a></li>
-				<li><a href="#">Help</a></li>
-				<li><a href="#">Privacy and Terms</a></li>
-            </ul>
-          </div>
-        </footer>
-      </main>
-    </div>
-	<script src="../styles/src/mdlComponentHandler.js"></script>
-	<script src="../styles/src/button/button.js"></script>
-	<script src="../styles/src/checkbox/checkbox.js"></script>
-	<script src="../styles/src/icon-toggle/icon-toggle.js"></script>
-	<script src="../styles/src/menu/menu.js"></script>
-	<script src="../styles/src/progress/progress.js"></script>
-	<script src="../styles/src/radio/radio.js"></script>
-	<script src="../styles/src/slider/slider.js"></script>
-	<script src="../styles/src/spinner/spinner.js"></script>
-	<script src="../styles/src/switch/switch.js"></script>
-	<script src="../styles/src/tabs/tabs.js"></script>
-	<script src="../styles/src/textfield/textfield.js"></script>
-	<script src="../styles/src/tooltip/tooltip.js"></script>
-	<script src="../styles/src/layout/layout.js"></script>
-	<script src="../styles/src/data-table/data-table.js"></script>
-	<script src="../styles/src/ripple/ripple.js"></script>
-	<script src="../scripts/main.js"></script>
-  </body>
+		<link rel="shortcut icon" href="images/favicon.png">
+
+		<!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+		<!--
+	  <link rel="canonical" href="http://www.example.com/">
+		-->
+
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="../styles/material.blue-orange.min.css">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+			<header class="demo-header mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800">
+				<div class="mdl-layout__header-row">
+					<span class="mdl-layout-title">Namho Kim (ARC)</span>
+					<div class="mdl-layout-spacer"></div>
+					<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+						<!--<label class="mdl-button mdl-js-button mdl-button--icon" for="search">-->
+						<!--<i class="material-icons">search</i>
+		  </label>-->
+		  <!--<div class="mdl-textfield__expandable-holder">
+			  <input class="mdl-textfield__input" type="text" id="search">
+			  <label class="mdl-textfield__label" for="search">Enter your query...</label>
+		  </div>-->
+					</div>
+				</div>
+			</header>
+			<div class="demo-ribbon"></div>
+			<main class="demo-main mdl-layout__content">
+			<div class="demo-container mdl-grid">
+				<div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+				<div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+					<div class="demo-crumbs mdl-color-text--grey-500">
+						<a href="/" >Namho Kim (ARC)</a> &gt; <a href=# >tab</a> &gt; <a href=# >contents</a>
+					</div>
+					<h3>test title</h3>
+				</div>
+			</div>
+			<footer class="mdl-mega-footer">
+				<div class="mdl-mega-footer--bottom-section">
+					<ul class="mdl-mega-footer--link-list">
+						<li>Copyright &#169 2017 <a class="org fn url" href="/" target="_blank">Namho Kim (ARC)</a> All right reserved.</li>
+						<li><a href="https://scholar.google.co.kr/citations?user=tFNxNtAAAAAJ&hl=en">Google Scholar</a></li>
+						<!--<li><a href="#">Help</a></li>-->
+						<!--<li><a href="#">Privacy and Terms</a></li>-->
+					</ul>
+				</div>
+			</footer>
+			</main>
+		</div>
+		<script src="../styles/src/mdlComponentHandler.js"></script>
+		<script src="../styles/src/button/button.js"></script>
+		<script src="../styles/src/checkbox/checkbox.js"></script>
+		<script src="../styles/src/icon-toggle/icon-toggle.js"></script>
+		<script src="../styles/src/menu/menu.js"></script>
+		<script src="../styles/src/progress/progress.js"></script>
+		<script src="../styles/src/radio/radio.js"></script>
+		<script src="../styles/src/slider/slider.js"></script>
+		<script src="../styles/src/spinner/spinner.js"></script>
+		<script src="../styles/src/switch/switch.js"></script>
+		<script src="../styles/src/tabs/tabs.js"></script>
+		<script src="../styles/src/textfield/textfield.js"></script>
+		<script src="../styles/src/tooltip/tooltip.js"></script>
+		<script src="../styles/src/layout/layout.js"></script>
+		<script src="../styles/src/data-table/data-table.js"></script>
+		<script src="../styles/src/ripple/ripple.js"></script>
+		<script src="../scripts/main.js"></script>
+	</body>
 </html>
