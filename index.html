@@ -68,22 +68,27 @@
 					<a href="#namhokim" class="mdl-layout__tab is-active">Namho Kim</a>
 					<a href="#publications" class="mdl-layout__tab">Publications</a>
 					<a href="#researches" class="mdl-layout__tab">Researches</a>
+					<a href="#art" class="mdl-layout__tab">Art</a>
 					<a href="#contact" class="mdl-layout__tab">Contact</a>
 				</div>
 			</header>
 			<main class="mdl-layout__content">
+			
 			<div class="mdl-layout__tab-panel is-active" id="namhokim">
 				<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-					<header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
-						<img src="./images/touch/profile.png" alt="profile" style="width:200px;height:200px;">
-					</header>
-					<div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-						<div class="mdl-card__supporting-text">
-								My name is Namho Kim and I'm an M.S. student at Computer Science and Engineering Department 
-								in SNU as a member of Computer Architecture and Code Optimization Lab (ARC).
-						</div>
-						<div class="mdl-card__actions">
-							<a href="#" class="mdl-button">Details</a>
+					<div class="mdl-card mdl-cell mdl-cell--12-col">
+						<div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+							<div class="mdl-cell mdl-cell--3-col mdl-cell--1-col-phone">
+								<img src="./images/touch/profile.png" alt="profile" style="width:100%;height:100%;">
+							</div>
+							<div class="mdl-cell mdl-cell--9-col-desktop mdl-cell--4-col-tablet mdl-cell--2-col-phone">
+								<p>
+									<ul>
+										My name is Namho Kim and I'm an M.S. student at Computer Science and Engineering Department 
+										in SNU as a member of Computer Architecture and Code Optimization Lab (ARC).
+									</ul>
+								</p>
+							</div>
 						</div>
 					</div>
 				</section>
@@ -174,16 +179,12 @@
 				<section class="section--center mdl-grid mdl-grid--no-spacing">
 					<div class="mdl-cell mdl-cell--12-col">
 						<h4>Publications</h4>
-						<!--<ul class="toc">
+						<ul class="toc">
 							<h4>Contents</h4>
-							<a href="#lorem1">Lorem ipsum</a>
-							<a href="#lorem2">Lorem ipsum</a>
-							<a href="#lorem3">Lorem ipsum</a>
-							<a href="#lorem4">Lorem ipsum</a>
-							<a href="#lorem5">Lorem ipsum</a>
-						</ul>-->
+							<a href="#typed">Typed Architecture</a>
+						</ul>
 						<ul>	
-							<p>
+							<p id="typed">
 								<b>[ASPLOS '17]</b>
 								Channoh Kim, Jaehyeok Kim, Sungmin Kim, Dooyoung Kim, <u>Namho Kim</u>, Gitae Na, Young H. Oh, Hyeon Gyu Cho, and Jae W. Lee,
 								"Typed Architectures: Architectural Support for Lightweight Scripting",
@@ -235,18 +236,34 @@
 					</div>
 				</section>
 			</div>
+			<div class="mdl-layout__tab-panel" id="art">
+				<section class="section--center mdl-grid mdl-grid--no-spacing">
+					<div class="mdl-cell mdl-cell--12-col">
+						<h4>Art</h4>
+						<ul class="toc">
+							<h4>Contents</h4>
+							<a href="#">Lorem ipsum</a>
+							<a href="#">Lorem ipsum</a>
+							<a href="#">Lorem ipsum</a>
+							<a href="#">Lorem ipsum</a>
+							<a href="#">Lorem ipsum</a>
+						</ul>
+						<!--<h5 id="lorem1">test title</h5>-->
+					</div>
+				</section>
+			</div>
 			<footer class="mdl-mini-footer">
 			<div class="mdl-mini-footer__left-section">
 				<ul class="mdl-mini-footer__link-list">
-					<li><a href="#">Namho Kim (ARC)</a></li>
-					<li><a href="#">Publications</a></li>
-					<li><a href="#">Researches</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#namhokim">Namho Kim (ARC)</a></li>
+					<li><a href="#publication">Publications</a></li>
+					<li><a href="#researches">Researches</a></li>
+					<li><a href="#contacts">Contact</a></li>
 				</ul>
 
 			<ul class="mdl-mini-footer--link-list">
-				<li>Copyright &#169 2017 <a class="org fn url" href="/" target="_blank">Namho Kim (ARC)</a> All right reserved.</li>
-				<li><a href="https://scholar.google.co.kr/citations?user=tFNxNtAAAAAJ&hl=en">Google Scholar</a></li>
+				<li>Copyright &#169 2017 <a class="org fn url" href="/" target="_blank">Namho Kim (ARC)</a> All right reserved.  				
+											<a href="https://scholar.google.co.kr/citations?user=tFNxNtAAAAAJ&hl=en">Google Scholar</a></li>
 			</ul>
 			</div>
 		</footer>
